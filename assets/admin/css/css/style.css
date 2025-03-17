@@ -1,0 +1,95 @@
+body{background:#f8f9f5;font-family:'Public Sans',sans-serif;font-weight:400;font-size:13px}
+.badge{font-weight:400;border-radius:2px}
+.table td{font-size:14px}
+.form-group{margin-bottom:10px;align-items:center}
+a{text-decoration:none}
+a:focus,a:hover{text-decoration:none}
+.login-wrapper{max-width:500px;margin:150px auto}
+.alert,.btn,.card,.form-control,.rounded, .modal-content, .form-select{font-size:inherit;border-radius:3px}
+select.form-control:not([size]):not([multiple]){height:inherit}
+select.form-control{appearance:auto}
+.btn-xs{padding:2px 5px;font-size:80%}
+.box{background:#fff;margin-bottom:20px;border-radius:3px;border:solid 1px #ddd}
+.box-header{background:#eee;padding:15px;border-radius:2px 2px 0 0;border-bottom:solid 1px #ddd}
+.box-p{padding:15px}
+.box-bb{border-bottom:solid 1px #ddd}
+.box-bt{border-top:solid 1px #ddd}
+.box-title{padding:0;margin:0}
+.box table.table{margin:0}
+.form-control:focus{box-shadow:none}
+.form-label{font-weight:700;text-align:right}
+.topbar{background:#333;padding:8px;color:#fff;background:#0f4dd4}
+.qmenu{list-style:none;float:right;margin:0;padding:0}
+.qmenu li{display:inline}
+.qmenu li a{color:#999;display:inline-block;padding:0 10px}
+.sidebar{width:240px;background:#212121;height:100vh;overflow:auto;position:fixed;border-right:solid 1px #ddd}
+.sidebar::-webkit-scrollbar{width:3px;background-color:#ddd}
+.sidebar::-webkit-scrollbar-track{background-color:#007bff}
+.main{padding-left:240px}
+.main-content{padding:15px}
+.userinfo{background:#888;padding:15px}
+.userinfo img{width:60px;height:60px;border-radius:100%;float:left;background:#fff;padding:2px}
+.user-details{margin-left:70px;font-size:14px;color:#fff}
+.menu{list-style:none;margin:0;padding:0}
+.btn-logout{padding:2px 5px;font-size:10px;margin-top:5px}
+.menu li{border-bottom:solid 1px #888}
+.menu li span{float:right}
+.menu li a{display:block;padding:10px;color:#fff}
+.menu li a:hover{background:#2a6efd;text-decoration:none;color:#fff}
+.menu li.has-submenu ul{display:none}
+.menu li.active ul{display:block}
+.menu li.has-submenu li a span{float:none}
+.menu ul{list-style:none;margin:0;padding:0}
+.menu ul li{border-top:solid 1px #888;border-bottom:none;padding-left:20px}
+.menu li .fa{width:20px}
+.widget{background:#555;position:relative;color:#fff;padding:15px;border-radius:3px;border-right:solid 1px #ddd;border-bottom:solid 1px #ddd;text-align:center;margin-bottom:20px}
+.widget-icons{padding:15px 0 5px;font-size:40px;margin-bottom:15px}
+.widget a{position:absolute;left:0;top:0;width:100%;height:100%}
+.page-header{border-bottom:solid 1px #ddd;padding:15px 0;margin-bottom:1rem;display:flex;justify-content:space-between;align-items:center}
+.page-header .h5,.page-header h5{margin:0}
+table.table thead tr td,table.table tr th{font-size:14px}
+.ul-icons{list-style:none;margin:0;padding:0}
+.ul-icons li{margin-bottom:5px;padding-left:20px;position:relative}
+.ul-icons li .fa{position:absolute;left:0;bottom:0}
+.tiles a:hover{text-decoration:none}
+.main-outer{display:flex;justify-content:space-between}
+.main-outer .main{flex:1}
+.main-outer.full-view .sidebar{display:none}
+.badge{display:inline-block;padding:2px}
+.badge-success{background-color:green}
+.badge-danger{background-color:red}
+.box-footer-dark{background-color:rgba(0,0,0,.4)}
+.errors ul{margin:0}
+.dashboard .box{margin:0}
+.control-label{font-weight:700;text-align:right}
+.card-info{border-top:solid 3px #007bff}
+.tab-container{margin-bottom:20px}
+.tab-menu{background:#fff;border:solid 1px #eee;border-top-left-radius:3px;border-top-right-radius:3px;overflow:hidden}
+.tab-menu ul{list-style:none;margin:0;padding:0;display:flex}
+.tab-menu ul li{border-right:solid 1px #eee}
+.tab-menu ul li:last-child{border:none}
+.tab-menu ul li a{display:inline-block;padding:10px 25px;color:#333}
+.tab-menu ul li.active a,.tab-menu ul li.active a:hover{background-color:#464343;color:#fff}
+.tab-menu ul li a:hover{background-color:#f5f5f5}
+.tab-content{padding:20px;border:solid 1px #eee;border-top:none;background:#fff;border-bottom-left-radius:3px;border-bottom-right-radius:3px}
+.btn-status{width:100px}
+table.dataTable tr{border-bottom:solid 1px #ddd}
+.box-grad1{background:#00e6ff}
+.box-grad2{background:#007bff}
+.btn-menu{cursor:pointer}
+.pagination{margin:0}
+.pagination li a{display:inline-block;padding:5px 10px}
+.pagination li.active a{background-color:#007bff;color:#fff}
+.form-select{max-height:36px}
+
+.width-100{ width: 100px;}
+.width-120{ width: 120px;}
+.width-160{ width: 160px;}
+.width-200{ width: 200px;}
+.width-400{ width: 400px;}
+
+@media screen and (max-width:768px){
+.menu li span,.sidebar{display:none;padding-top:0}
+.topbar{position:relative}
+.main{margin-top:0}
+}

@@ -1,0 +1,4 @@
+[30-Nov-2024 11:08:24 Asia/Kolkata] PHP Warning:  Undefined array key "title" in /home2/cashorbit/public_html/admin.cashorbit.net/admin/setting/change_password.php on line 11
+[30-Nov-2024 11:08:24 Asia/Kolkata] PHP Warning:  Undefined variable $id in /home2/cashorbit/public_html/admin.cashorbit.net/admin/setting/change_password.php on line 12
+[30-Nov-2024 11:08:24 Asia/Kolkata] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 613
+[30-Nov-2024 11:08:24 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/cashorbit/public_html/admin.cashorbit.net/admin/setting/change_password.php:11) in /home2/cashorbit/public_html/admin.cashorbit.net/config/functions.php on line 30

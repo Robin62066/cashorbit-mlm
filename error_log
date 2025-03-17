@@ -1,0 +1,201 @@
+[10-Dec-2024 18:37:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function strototime() in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php:363
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(447): User->rechargeInfo(195557)
+#1 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 363
+[10-Dec-2024 19:31:02 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'cashorbit_mlm.id' doesn't exist in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:199
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(199): mysqli->query('SELECT id, plac...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(183): Database->query('SELECT id, plac...')
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(404): Database->select('id', Array, 1, false, 'AND', 'id, placement_i...')
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->placementTree(206792)
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 199
+[10-Dec-2024 19:31:31 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'placement_id' in 'field list' in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:199
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(199): mysqli->query('SELECT id, plac...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(183): Database->query('SELECT id, plac...')
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(404): Database->select('ai_users', Array, 1, false, 'AND', 'id, placement_i...')
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->placementTree(206792)
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 199
+[10-Dec-2024 19:31:55 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'placement_id' in 'field list' in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:199
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(199): mysqli->query('SELECT id, plac...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(183): Database->query('SELECT id, plac...')
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(404): Database->select('ai_users', Array, 1, false, 'AND', 'id, placement_i...')
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->placementTree(206792)
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 199
+[10-Dec-2024 19:31:56 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'placement_id' in 'field list' in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:199
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(199): mysqli->query('SELECT id, plac...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(183): Database->query('SELECT id, plac...')
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(404): Database->select('ai_users', Array, 1, false, 'AND', 'id, placement_i...')
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->placementTree(206792)
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 199
+[10-Dec-2024 19:32:29 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'placement_id' in 'field list' in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:199
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(199): mysqli->query('SELECT id, plac...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(183): Database->query('SELECT id, plac...')
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(404): Database->select('ai_users', Array, 1, false, 'AND', 'id, placement_i...')
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->placementTree(206792)
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 199
+[10-Dec-2024 19:33:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class "User" not found in /home2/cashorbit/public_html/admin.cashorbit.net/test.php:7
+Stack trace:
+#0 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/test.php on line 7
+[10-Dec-2024 22:27:49 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Test1', 'Test', 'yesbossmix99@gm...', '7004145550', 1, '121212')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[10-Dec-2024 22:29:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'l0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('l0000001', 'test1', 'test', 'fugyuguig@gmai....', '7004145550', 1, '121212')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[10-Dec-2024 22:33:41 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Test1', 'Test', 'gjhbjjxhh@gmail...', '7004145550', 1, '121212')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[10-Dec-2024 22:35:26 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Test1', 'Test', 'gjjcbvhh@gamil....', '7004145550', 1, '121212')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 08:00:30 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Test1', 'Test', 'fvhjbjjbb@gmail...', '7004145550', 2, '121212')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 09:54:12 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Testing', 'Avinash', 'testing@gmail.c...', '1234123412', 1, '1234')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:00:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'New', 'User', 'newuser@gmail.c...', '7777888891', 1, '12341234')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:00:10 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'New', 'User', 'newuser@gmail.c...', '7777888891', 1, '12341234')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:02:48 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Kamal', 'Kumar', 'hello@gmail.com', '9334628120', 1, '1235')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:03:43 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Rakesh', 'kr', 'hello@1llo', '8707494226', 1, '454223')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:06:54 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(39): User->createSignup('L0000001', 'Rajesh', 'kr', 'hello@1llo', '8707494226', 2, '454223')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:07:15 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(76): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(17): User->createSignup('L0000001', 'Rakesh', 'kr', 'hello@1llo', '8707494226', 1, '454223')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:07:46 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: 'L0000001' for column `cashorbit_mlm`.`ai_users`.`placement_id` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(79): Database->insert('ai_users', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(17): User->createSignup('L0000001', 'Rakesh', 'kr', 'hello@1llo', '8707494226', 1, '454223')
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "sponsor_id" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 695
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "first_name" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 703
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "last_name" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 703
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "username" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 704
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "mobile" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 705
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "created" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 707
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 707
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "ac_status" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 710
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "sponsor_id" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 717
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Deprecated:  str_pad(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/cashorbit/public_html/admin.cashorbit.net/config/functions.php on line 100
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "plan_total" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 719
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "matching" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 720
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Attempt to read property "placement_id" on null in /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php on line 723
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Deprecated:  str_pad(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/cashorbit/public_html/admin.cashorbit.net/config/functions.php on line 100
+[11-Dec-2024 10:13:38 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php:695) in /home2/cashorbit/public_html/admin.cashorbit.net/config/restapi.class.php on line 107
+[11-Dec-2024 10:35:32 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'cashorbit_mlm.userplans' doesn't exist in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(440): Database->insert('userplans', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(171): User->addUserplans(682133)
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(154): User->activateAccount(682133, 1, 1, 'fund')
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 11:05:51 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'cashorbit_mlm.userplans' doesn't exist in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(440): Database->insert('userplans', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->addUserplans(682133)
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 11:06:11 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'cashorbit_mlm.userplans' doesn't exist in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(440): Database->insert('userplans', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->addUserplans(682133)
+#3 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 11:08:04 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2024-12-11, 11:08' for column `cashorbit_mlm`.`ai_level_manager`.`created` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(531): Database->insert('ai_level_manage...', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(171): User->add2UniversalPool(682133)
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->activateAccount(682133, 1, 1, 'fund')
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 11:10:14 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2024-12-11, 11:10:14' for column `cashorbit_mlm`.`ai_level_manager`.`created` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(531): Database->insert('ai_level_manage...', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(171): User->add2UniversalPool(682133)
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/test.php(9): User->activateAccount(682133, 1, 1, 'fund')
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470
+[11-Dec-2024 11:14:52 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect datetime value: '2024-12-11, 11:14:52' for column `cashorbit_mlm`.`ai_level_manager`.`created` at row 1 in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php:470
+Stack trace:
+#0 /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php(470): mysqli_query(Object(mysqli), 'INSERT INTO `ai...')
+#1 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(531): Database->insert('ai_level_manage...', Array)
+#2 /home2/cashorbit/public_html/admin.cashorbit.net/common/User.php(171): User->add2UniversalPool(551773)
+#3 /home2/cashorbit/public_html/admin.cashorbit.net/api.php(154): User->activateAccount(551773, 1, 1, 'fund')
+#4 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/config/database.php on line 470

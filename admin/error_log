@@ -1,0 +1,47 @@
+[15-Feb-2024 13:51:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'biharohi_db.users' doesn't exist in /home3/biharohi/public_html/config/database.php:199
+Stack trace:
+#0 /home3/biharohi/public_html/config/database.php(199): mysqli->query('SELECT count(id...')
+#1 /home3/biharohi/public_html/config/database.php(183): Database->query('SELECT count(id...')
+#2 /home3/biharohi/public_html/admin/dashboard.php(8): Database->select('users', Array, false, false, 'AND', 'count(id) as c')
+#3 {main}
+  thrown in /home3/biharohi/public_html/config/database.php on line 199
+[04-Mar-2024 13:14:16 Asia/Kolkata] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home3/biharohi/public_html/config/Permission.php on line 17
+[04-Mar-2024 13:14:16 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/biharohi/public_html/config/Permission.php on line 23
+[04-Mar-2024 13:14:16 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/biharohi/public_html/config/Permission.php on line 23
+[04-Mar-2024 13:14:16 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/biharohi/public_html/config/Permission.php on line 23
+[04-Mar-2024 13:17:17 Asia/Kolkata] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home3/biharohi/public_html/config/Permission.php on line 17
+[04-Mar-2024 13:17:17 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/biharohi/public_html/config/Permission.php on line 23
+[04-Mar-2024 13:17:17 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/biharohi/public_html/config/Permission.php on line 23
+[04-Mar-2024 13:17:17 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/biharohi/public_html/config/Permission.php on line 23
+[04-Mar-2024 13:25:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method Permission::isCreateNew() in /home3/biharohi/public_html/admin/common/header.php:71
+Stack trace:
+#0 /home3/biharohi/public_html/admin/dashboard.php(10): include_once()
+#1 {main}
+  thrown in /home3/biharohi/public_html/admin/common/header.php on line 71
+[04-Mar-2024 13:25:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method Permission::isCreateNew() in /home3/biharohi/public_html/admin/common/header.php:71
+Stack trace:
+#0 /home3/biharohi/public_html/admin/dashboard.php(10): include_once()
+#1 {main}
+  thrown in /home3/biharohi/public_html/admin/common/header.php on line 71
+[26-Nov-2024 19:26:39 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/index.php on line 35
+[26-Nov-2024 19:26:39 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/index.php on line 35
+[26-Nov-2024 19:26:39 Asia/Kolkata] PHP Warning:  include(): Failed opening '../common/alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/cashorbit/public_html/admin.cashorbit.net/admin/index.php on line 35
+[26-Nov-2024 19:28:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin_login() in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 3
+[26-Nov-2024 19:30:09 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:30:09 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:30:09 Asia/Kolkata] PHP Warning:  include(): Failed opening '../common/alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:30:23 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:30:23 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:30:23 Asia/Kolkata] PHP Warning:  include(): Failed opening '../common/alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:31:05 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:31:05 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:31:05 Asia/Kolkata] PHP Warning:  include(): Failed opening '../common/alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:35:35 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:35:35 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:35:35 Asia/Kolkata] PHP Warning:  include(): Failed opening '../common/alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:35:53 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:35:53 Asia/Kolkata] PHP Warning:  include(../common/alert.php): Failed to open stream: No such file or directory in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
+[26-Nov-2024 19:35:53 Asia/Kolkata] PHP Warning:  include(): Failed opening '../common/alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/cashorbit/public_html/admin.cashorbit.net/admin/dashboard.php on line 12
