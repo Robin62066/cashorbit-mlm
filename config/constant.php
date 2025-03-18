@@ -1,9 +1,9 @@
 <?php
 if ($site_live) {
-    define('HOSTNAME', 'localhost');
-    define('USERNAME', 'cashorbit_mlm');
-    define('PASSWORD', 'Rk-q5aIX?9kj');
-    define('DATABASE', 'cashorbit_mlm');
+    define('HOSTNAME', '');
+    define('USERNAME', '');
+    define('PASSWORD', '');
+    define('DATABASE', '');
 } else {
 
     define('HOSTNAME', 'localhost');
